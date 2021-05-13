@@ -1,6 +1,16 @@
 import React from 'react';
-import styles from '../styles/components/App.module.scss';
+import Header from './Header';
+import Product from './Product';
 
-const App = () => <h1 className={styles.title}>Hola Mundo</h1>;
+import '../assets/styles/components/GlobalStyles.scss';
+
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Product />
+    </>
+  );
+};
 
 export default App;

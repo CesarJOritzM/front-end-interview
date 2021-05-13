@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Circular-Std-Bold;
+  src: url('../../../../public/Circular-Std-Bold.otf');
+  font-family: Circular-Std-Book;
+  src: url('../../../../public/Circular-Std-Book.otf');
+  font-family: Circular-Std-Medium;
+  src: url('../../../../public/Circular-Std-Medium.otf');
+}
+:root {
+  --gray: #eeeff2;
+  --black: #000;
+  --red: #cb253c;
+  --darkGray: #6b7280;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: Circular-Std-Book;
+}
