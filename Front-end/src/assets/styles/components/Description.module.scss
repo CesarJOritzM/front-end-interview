@@ -1,5 +1,8 @@
 .header {
   margin: 120px 10px 0px;
+  @media (min-width: 760px) {
+    margin: 340px 110px 0px;
+  }
   .new {
     color: var(--red);
     text-transform: uppercase;
@@ -28,5 +31,14 @@
       line-height: 44px;
       color: var(--black);
     }
+  }
+}
+
+.adv {
+  @media (min-width: 760px) {
+    display: flex;
+    position: relative;
+    margin: 70px 110px 0px;
+    top: -660px;
   }
 }

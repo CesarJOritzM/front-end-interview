@@ -9,7 +9,7 @@ const Dots = ({ data, current, handleClick }) => {
           <div
             key={index}
             className={
-              current === index ? `${styles.active}` : styles.desactive
+              current === index ? `${styles.active}` : `${styles.desactive}`
             }
           >
             <img src={step.imageUrl} alt={step.title} />

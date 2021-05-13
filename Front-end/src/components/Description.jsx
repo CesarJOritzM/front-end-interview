@@ -2,7 +2,7 @@ import React from 'react';
 import Advantajes from './Advantajes';
 import Selections from './Selections';
 import Spec from './Spec';
-
+import Tabs from './Tabs';
 import styles from '../assets/styles/components/Description.module.scss';
 
 import touch from '../assets/images/Path@3x.png';
@@ -70,7 +70,8 @@ const description = () => {
           <p>$295.95</p>
         </div>
       </section>
-      <section>
+      <Tabs />
+      <section className={styles.adv}>
         {advData.map((adv, index) => {
           return (
             <Advantajes

@@ -5,7 +5,11 @@ import styles from '../assets/styles/components/Selected.module.scss';
 const Select = ({ title, description, price, active }) => {
   const [isActive, setIsActive] = useState(active);
   const handleClick = () => {
-    setIsActive(!isActive);
+    if (isActive === true) {
+      setIsActive(false);
+    } else {
+      setIsActive(true);
+    }
   };
   if (!price) {
     return (
