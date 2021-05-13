@@ -7,11 +7,12 @@ const Dots = ({ data, current }) => {
       {data.map((step, index) => {
         return (
           <div
+            key={index}
             className={
               current === index ? `${styles.active}` : styles.desactive
             }
           >
-            <img key={index} src={step.imageUrl} alt={step.title} />
+            <img src={step.imageUrl} alt={step.title} />
           </div>
         );
       })}
