@@ -64,6 +64,7 @@ const IntroSlider = () => {
       nextSlide();
     }, 10000);
   }, [nextSlide, prevSlide]);
+
   return (
     <>
       <section

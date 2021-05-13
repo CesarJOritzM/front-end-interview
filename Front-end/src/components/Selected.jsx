@@ -13,8 +13,8 @@ const Select = ({ title, description, price, active }) => {
         onClick={handleClick}
         className={
           isActive
-            ? `${styles.container} ${styles.desactive}`
-            : `${styles.container} ${styles.active}`
+            ? `${styles.container} ${styles.active}`
+            : `${styles.container} ${styles.desactive}`
         }
       >
         <p className={styles.title}>{title}</p>

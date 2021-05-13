@@ -1,6 +1,8 @@
 import React from 'react';
 import Advantajes from './Advantajes';
 import Selections from './Selections';
+import Spec from './Spec';
+
 import styles from '../assets/styles/components/Description.module.scss';
 
 import touch from '../assets/images/Path@3x.png';
@@ -90,6 +92,7 @@ const description = () => {
       <section>
         <Selections data={features}>Features</Selections>
       </section>
+      <Spec />
     </>
   );
 };
