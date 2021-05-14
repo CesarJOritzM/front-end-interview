@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: 80% 20%;
   grid-template-rows: 1fr;
+
   .title {
     position: relative;
     padding: 24px 20px 8px;
@@ -13,12 +14,14 @@
     grid-column-start: 1;
     grid-column-end: 2;
   }
+
   .content {
     color: var(--darkGray);
     padding: 0px 20px 4px;
     grid-column-start: 1;
     grid-column-end: 2;
   }
+
   .price {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -29,12 +32,15 @@
     justify-content: center;
   }
 }
+
 .active {
   border: 2px solid var(--blue);
 }
+
 .desactive {
   border: 2px solid var(--gray);
 }
+
 .container:hover {
   border: 2px solid var(--blue);
 }
