@@ -1,5 +1,6 @@
 import React from 'react';
 import Selections from './Selections';
+import styles from '../assets/styles/components/Options.module.scss';
 
 const color = [
   {
@@ -36,7 +37,7 @@ const features = [
 
 const Options = () => {
   return (
-    <>
+    <div className={styles.container}>
       <section>
         <Selections data={color}>Choose your finish.</Selections>
       </section>
@@ -48,7 +49,7 @@ const Options = () => {
       <section>
         <Selections data={features}>Features</Selections>
       </section>
-    </>
+    </div>
   );
 };
 

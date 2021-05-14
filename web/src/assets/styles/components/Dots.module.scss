@@ -5,6 +5,13 @@
   @media (min-width: 760px) {
     height: 102px;
   }
+  @media (min-width: 1260px) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 420px 0px 50px;
+  }
   .imgContainer {
     width: 90px;
     height: 50px;
