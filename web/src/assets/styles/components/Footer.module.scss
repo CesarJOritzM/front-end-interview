@@ -4,6 +4,9 @@
   flex-direction: column;
   text-align: end;
   padding: 35px;
+  @media (min-width: 760px) {
+    padding: 35px 110px;
+  }
   p {
     font-size: 28px;
     font-weight: 700;

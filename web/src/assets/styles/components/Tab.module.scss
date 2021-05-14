@@ -1,5 +1,9 @@
 .tabs {
-  margin: 15px 10px;
+  margin: 15px 0px;
+  @media (min-width: 760px) {
+    margin: 0px 0px 70px;
+  }
+
   ul {
     display: flex;
     list-style: none;

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../assets/styles/components/Footer.module.scss';
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className={styles.container}>
       <p>$295.95</p>
@@ -11,4 +11,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
